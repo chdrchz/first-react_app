@@ -1,0 +1,31 @@
+This is a text file to keep track of all of the things I am learning about react. 
+
+--- React ---
+
+React is a javascript library
+
+1. This will take the two typescript files: Message.tsx and App.tsx, and build a virtual DOM. App is parent, Message is child.
+2. When the data of a component changes, React updates the corresponding node in the virtual DOM. 
+3. Then it compares the old version of the DOM to the virtual DOM to see what nodes need to be updated.
+4. React will then update those nodes in the DOM. 
+
+// React does not directly update the DOM. react-dom does.
+
+// Components in React can only be one element big. 
+
+--- vite ---
+
+hmr update - hmr stands for 'hot module replacement' which just means we have made a change to the app
+
+
+--- Typescript + JSX ---
+
+function Message() {
+    // This syntax is JSX: JavaScript XML - Meaning this will be converted into javascript. 
+    const name = 'Savanna';
+    return <h1>Hello {name}</h1>; 
+}
+
+    return <h1>Hello {name}</h1>; -> {name} can be replaced here with a function like {getName()} for example
+
+// class is reserved in Javascript. It must be className

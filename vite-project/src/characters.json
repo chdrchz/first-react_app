@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Abigail",
+      "birthday": "Fall 13",
+      "likes": ["Amethyst", "Pumpkin", "Spicy Eel"],
+      "dislikes": ["Clay", "Wild Horseradish"],
+      "img": "link-to-image"
+    },
+    {
+      "name": "Alex",
+      "birthday": "Summer 13",
+      "likes": ["Complete Breakfast", "Salmon Dinner"],
+      "dislikes": ["Quartz", "Soup"],
+      "img": "link-to-image"
+    }
+  ]
