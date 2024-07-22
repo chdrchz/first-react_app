@@ -2,6 +2,7 @@ import React from "react";
 import Search from "./Search";
 import '../Styles/Home.css';
 import Button from "./Button";
+import image from '../Images/cookies.jpg';
 
 function Home() {
     return (
@@ -15,7 +16,12 @@ function Home() {
                 <h3>or... find something new</h3>
                 <div className="classes">
                     <div className="classCard">
-                        
+                        <div className="cardImageContainer">
+                            <img src={image} className="cardImage"></img>
+                        </div>
+                        <div className="classInfo">
+                            <p className="classTitle">Cookie Baking</p>
+                        </div>
                     </div>
                 </div>
             </div>

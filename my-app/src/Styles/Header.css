@@ -5,8 +5,8 @@ header {
     align-items: center;
     padding-right: 100px;
     padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     background-color: #F9F1F1;
     border-bottom: 2px solid #FF773E;
 }
@@ -17,8 +17,9 @@ nav {
     gap: 25px;
 }
 
-#logo {
+.logo {
     font-weight: bold;
+    font-size: 1.8rem;
 }
 
 #span-blue {

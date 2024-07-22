@@ -23,3 +23,13 @@ h1 {
     gap: 25px;
     padding: 50px;
 }
+
+.cardImageContainer {
+    width: 350px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 340px;
+}
