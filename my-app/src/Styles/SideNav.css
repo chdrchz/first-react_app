@@ -1,0 +1,30 @@
+.sideNav {
+    width: 350px;
+    height: 975.12px;
+    background-color: #F9F1F1;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 2px solid #FF773E;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ul-1, .ul-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.ul-1 {
+    border-bottom: 2px solid #FF773E;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

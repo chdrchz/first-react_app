@@ -1,0 +1,10 @@
+html, body {
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: row;
+}
